@@ -31,7 +31,7 @@ def summarize_paper(text):
     return text[:300] + "..."  # Truncate to first 300 chars
 
 # Sentiment analysis function
-def analyze_sentiment(text):
+def comparative_analysis(text):
     result = sentiment_pipeline(text)[0]
     return result['label']
 
